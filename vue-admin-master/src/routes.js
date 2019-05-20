@@ -40,7 +40,7 @@ let routes = [
         name: '商品模块',
         iconCls: 'el-icon-message',//图标样式class
         children: [
-            { path: '/brand', component: Brand, name: '商品品牌', },
+           // { path: '/brand', component: Brand, name: '商品品牌', },
             { path: '/productType', component: ProductType, name: '商品类型' },
             { path: '/form', component: Form, name: '商品模板' },
             { path: '/user', component: user, name: '商品规格' },
